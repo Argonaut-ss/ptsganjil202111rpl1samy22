@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.Dashboard">
+
+    <Button
+        android:id="@+id/buttonList"
+        android:layout_width="210dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="210dp"
+        android:text="List"/>
+
+    <Button
+        android:id="@+id/buttonFav"
+        android:layout_width="210dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/buttonList"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Favorite"/>
+
+</RelativeLayout>
